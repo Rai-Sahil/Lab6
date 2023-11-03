@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Write</title>
+        <link rel="stylesheet" type="text/css" href="write.css">
+    </head>
+    <body>
+        <form id="entryForm">
+            Word: <input type="text" id="word" name="word" required><br>
+            Definition: <textarea id="definition" name="definition" required></textarea><br>
+            Word Language:
+            <select id="wordLanguage" name="wordlanguage"></select>
+            Definition Language:
+            <select id="definitionLanguage" name="definitionLanguage"></select><br>
+            <input type="submit" value="Submit">
+            <button type="button" onclick="deleteWord()">Delete</button>
+        </form>
+        <script src="./write.js"></script>
+    </body>
+</html>
