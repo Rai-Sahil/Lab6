@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Search Dictionary Entries</title>
+    <link rel="stylesheet" type="text/css" href="search.css">
 </head>
+
 <body>
     <h1>Search Dictionary Entries</h1>
     <form id="searchForm">
@@ -10,9 +13,10 @@
         <input type="text" id="searchWord" name="searchWord" required><br><br>
         <button type="submit">Search</button>
     </form>
-    Definition : <div id="definition"></div>
-    Word Language : <div id="wordLanguage"></div>
-    Definition Language : <div id="definitionLanguage"></div>
+    <p>Definition : </p><div id="definition"></div>
+    <p>Word Language :</p> <div id="wordLanguage"></div>
+    <p>Definition Language :</p> <div id="definitionLanguage"></div>
     <script src="./search.js"></script>
 </body>
+
 </html>
